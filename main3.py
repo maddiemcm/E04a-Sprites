@@ -22,7 +22,8 @@ class MyGame(arcade.Window):
 
     def setup(self):
         for a in self.animal_list:   
-            x = sel 
+            x = self.x
+            y = self.y
             self.animal_sprite = arcade.Sprite("assets/moose.png", 0.5)
             self.animal_sprite.x = self.x
             self.animal_sprite.y = self.y
